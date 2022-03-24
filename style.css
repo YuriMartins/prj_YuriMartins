@@ -1,0 +1,25 @@
+
+h1{     
+    color: dodgerblue;
+    font-family: 'Arial';
+}
+h3{
+
+    color:indigo;
+    font-family:'Arial';
+}
+span{
+    color: dimgray;
+    font-family: 'Arial';
+    font-size: 18px;   
+}
+.spanDestaque {
+    background-color: yellow;
+}
+#bDestaque {
+    background-color: yellow;
+}
+.iDestaque {
+    background-color: yellow;
+}
+
