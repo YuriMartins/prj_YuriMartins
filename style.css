@@ -1,21 +1,26 @@
-html, body, h1, h3 {
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+html, body, h1, h2, h3 {
     margin: 0;
     padding: 0;
     border: 0;
 }
+body {
+    font-family: 'Hurricane', cursive;
+}
 .nav {
     background-color: #000407;
     color: #3289cd;
-    width: 100vw;
-    height: 14vh;
+    width: 100%;
+    height: flex;
+    border-bottom: 3px solid;
 }
-.container {
+.nav .container {
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
     width: 80vw;
     /* height: 14vh; */
-    margin-left: auto; 
+    margin-left: auto;  
     margin-right: auto;
 }
 h1 {
@@ -26,11 +31,95 @@ h1 {
     display: flex;
     width: 40vw;
     justify-content: space-around;
+    align-items: center;
+    list-style: none;
     font-size: calc(3 * (0.4vw + 0.4vh));
+}
+.now {
+    font-weight: bold;
+}
+.navbar a{
+    text-decoration: none;
+    color: #e3b062;
+
 }
 li {
     list-style-type: none;
 }
+.banner {
+    background-image: url('img/bg-jelly-fish-para_outras_pags.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .container {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    align-items: center;
+    color: white;
+    
+}
+.banner p{
+    font-size: calc(3 * (0.5vw + 0.6vh));
+    width: 20vw;
+}
+.footer {
+    background-color: #3289cd;
+    color: white;
+}
+.footer .container {
+    display: flex;
+    height: 24vh;
+    align-items: center;
+    justify-content: center;
+}
+.banner .container.Login {
+    margin: 0;
+    justify-content: center;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+    color: #e6005a;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;   
+    margin-top: 4%;
+    width: 54%; 
+    font-size: 26px;
+}
+.forms input {
+    margin: 10px 0 10px;
+    padding: 6%;
+    border: 0;  
+    outline: 3px solid #3289cd;
+    border-radius: 6px;
+}
+.forms button {
+    margin-top: 6%;
+    padding: 18px 15px;
+    border-radius: 6px;
+    background-color: #e6005a;
+    color: white;
+    width: 24vh;
+    align-self: center;
+    border: 0;
+    cursor: pointer;
+}
+.forms button:hover{
+    background-color: #000000;
+}
+
+
 
 
 
